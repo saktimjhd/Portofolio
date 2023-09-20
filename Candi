@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Gaya untuk menggambar bentuk candi */
+        .candi {
+            width: 300px;
+            height: 300px;
+            background-color: #d2b48c; /* Warna yang mirip dengan batu candi */
+            margin: 0 auto;
+            position: relative;
+        }
+        .puncak {
+            width: 0;
+            height: 0;
+            border-left: 150px solid transparent;
+            border-right: 150px solid transparent;
+            border-bottom: 60px solid #d2b48c; /* Warna yang mirip dengan batu candi */
+            position: absolute;
+            top: 0;
+            left: 50%;
+            margin-left: -150px;
+        }
+        .lantai {
+            width: 100%;
+            height: 60px;
+            background-color: #d2b48c; /* Warna yang mirip dengan batu candi */
+            position: absolute;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="candi">
+        <div class="puncak"></div>
+        <div class="lantai"></div>
+    </div>
+</body>
+</html>
